@@ -14,6 +14,6 @@
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
 $factory->define(App\Task::class, function (Faker\Generator $faker) {
     return [
-        'keeps' => $faker->sentence,
+        'keep' => $faker->sentence,
     ];
 });
