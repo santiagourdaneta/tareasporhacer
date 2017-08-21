@@ -3,7 +3,7 @@
 use Illuminate\Database\Seeder;
 use App\Task;
 
-class DatabaseSeeder extends Seeder
+class TasksSeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -12,6 +12,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call(TasksSeder::class);
+        factory(Task::class, 5)->create();
     }
 }
