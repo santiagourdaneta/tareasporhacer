@@ -22,4 +22,5 @@ mix.scripts([
 	.styles([
 	'resources/assets/css/bootstrap.css',
 	'resources/assets/css/toastr.css',
+	'resources/assets/css/app.css',
 	], 'public/css/app.css');

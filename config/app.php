@@ -178,6 +178,12 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        //Providers personalizados
+
+        Intervention\Image\ImageServiceProvider::class,
+
+        //Fin de providers 
+
     ],
 
     /*
@@ -226,6 +232,12 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+
+        //Alias personalizados
+
+        'Image' => Intervention\Image\Facades\Image::class
+
+        //Fin de alias personalizados
 
     ],
 
