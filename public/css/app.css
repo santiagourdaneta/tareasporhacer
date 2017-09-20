@@ -7005,7 +7005,6 @@ button.toast-close-button {
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3b5998', endColorstr='#ff133783', GradientType=0);
 	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
-
 .btn-facebook:focus,
 .btn-facebook:active,
 .btn-facebook.active,
@@ -7015,27 +7014,75 @@ button.toast-close-button {
 	background-color: #133783 !important;
 	*background-color: #102e6d !important;
 }
-
 .btn-facebook:hover {
 	background-color: #133783; /* Green */
     color: white;
 }
-
 .btn-facebook:active,
 .btn-facebook.active {
 	background-color: #0d2456 \9 !important;
 }
-
 footer {
   .grid(full);
   background: #ffffff;
   border-top: 0.0625em solid lightgrey;
   bottom: 0; // !important helps maintain set height 
   color: #000000;   
-  height: 5em; // !important - must be < = body margin-bottom
-  position: absolute; // !important clears
+  height: 5rem; // !important - must be < = body margin-bottom
+  /*position: absolute; // !important clears*/
   p {
     .col(12; @ta: center);
     padding: 1.25em;
   }
+}
+.panel-register {
+	border-color: #484847;
+}
+.header_register {
+	color: #fff7ec;
+	font-size: 20px;
+	text-align: center;
+	font-family: Ubuntu Light;
+	background-color: #e08600;
+	border-radius: 3px;
+}
+.form-register {
+	background-color: #F8ECE;
+	/*color: #fff7ec;*/
+	font-family: cursive;
+}
+.form-register-label {
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-right: 2px;
+}
+.input-register {
+	background-color: #fff7ec;
+	border-radius: 15px;
+}
+.button-register {
+	padding-top: 15px;
+}
+.btn-register-form {
+	color: #fff;
+	font-family: Bree Regular;
+	background-color: #2f9cd0;
+	opacity: 1;
+	width: 200px;
+	border-color: #2f9cd0;
+	border-radius: 12px;
+}
+.btn-register-form:hover {
+	color: #2f9cd0;
+	background-color: #fff;
+	border-color: #2f9cd0;
+}
+.footer-register {
+	font-family: cursive;
+	font-size: 15px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	background-color: #e08600;
+	color: #fff7ec;
+	padding-top: 15px; 
 }

@@ -71,7 +71,7 @@
 </div>
 
 
-<footer style="background-color: #F2F2F2;" class="navbar-fixed-bottom">
+<footer style="background-color: #F2F2F2;" class="footer-aplication">
   <p>
     <small><center>&copy; 2017 Laravel</center></small>
   </p>
