@@ -6986,7 +6986,19 @@ button.toast-close-button {
 }
 
 /* Hoja de estilos personalizada para la aplicación*/
+.fade-scale {
+  transform: scale(0);
+  opacity: 0;
+  -webkit-transition: all .25s linear;
+  -o-transition: all .25s linear;
+  transition: all .25s linear;
+}
 
+.fade-scale.in {
+  opacity: 1;
+  transform: scale(1);
+}
+/*Estilos para el register y login*/
 .btn-facebook {
 	color: #ffffff;
 	-webkit-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
@@ -7082,7 +7094,7 @@ footer {
 	font-size: 15px;
 	padding-bottom: 15px;
 	padding-top: 15px;
-	background-color: #e08600;
+	background-color: red;
 	color: #fff7ec;
 	padding-top: 15px; 
 }
