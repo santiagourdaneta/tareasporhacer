@@ -21,7 +21,7 @@
           <span class="icon-bar"></span>
         </button>
         <!-- Branding Image -->
-        <a class="navbar-brand" href="{{ asset('storage/app/public/brand/brand-ico.png') }}">
+        <a class="navbar-brand" href="{{ route('home') }}">
           <span><img src="{{ asset('/uploads/brand/brand-ico.png') }}" alt="" style="margin-top: -10px; width: 35px;"></span>
           <span>BatCave</span>
         </a>
