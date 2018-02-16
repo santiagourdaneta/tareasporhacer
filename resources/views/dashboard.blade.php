@@ -2,9 +2,9 @@
 @section('content')
 <div id="crud" class="row">
 	<div class="col-xs-12">
-		<h3 class="page-header">Muestra de CRUD</h3>
+		<h3 class="page-header">Tareas por hacer</h3>
 	</div>
-	<div class="col-sm-7">
+	<div class="col-sm-12">
 		<a href="" class="btn btn-success pull-right" data-toggle="modal" data-target="#newTask">Nueva tarea</a>
 		<table class="table table-hover table-striped">
 			<thead>
@@ -58,11 +58,7 @@
 		@include('edit')
 
 	</div>
-	<div class="col-sm-5">
-		<pre>
-			@{{ $data }}
-		</pre>
-	</div>
+	 
 </div>
 
 @endsection

@@ -5,11 +5,7 @@ Route::get('/', function () {
 });
 // Fin de ruta landing
 
-// Rutas para manejo de usuarios
-Auth::routes();
-Route::get('profile', 'UserController@profile');
-Route::post('profile', 'UserController@update_avatar');
-//Fin de rutas para manejos de usuarios
+ 
 
 //Ruta para tareas
 Route::resource('tasks', 'TaskController', ['except' => 'create', 'edit']);
